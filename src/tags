@@ -1,0 +1,96 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CokeCanPickAndPlace	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^class CokeCanPickAndPlace:$/;"	c
+CokeCanPickAndPlace	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^class CokeCanPickAndPlace:$/;"	c
+CokeCanPickAndPlace	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^class CokeCanPickAndPlace:$/;"	c
+Pick_Place	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^class Pick_Place:$/;"	c
+Pick_Place	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^class Pick_Place:$/;"	c
+__del__	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def __del__(self):$/;"	m	class:Pick_Place	file:
+__del__	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def __del__(self):$/;"	m	class:CokeCanPickAndPlace	file:
+__del__	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def __del__(self):$/;"	m	class:Pick_Place	file:
+__del__	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def __del__(self):$/;"	m	class:CokeCanPickAndPlace	file:
+__del__	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def __del__(self):$/;"	m	class:CokeCanPickAndPlace	file:
+__init__	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def __init__(self):$/;"	m	class:Pick_Place
+__init__	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def __init__(self):$/;"	m	class:CokeCanPickAndPlace
+__init__	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def __init__(self):$/;"	m	class:Pick_Place
+__init__	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def __init__(self):$/;"	m	class:CokeCanPickAndPlace
+__init__	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def __init__(self):$/;"	m	class:CokeCanPickAndPlace
+_add_coke_can	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _add_coke_can(self, name):$/;"	m	class:CokeCanPickAndPlace
+_add_coke_can	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _add_coke_can(self, name):$/;"	m	class:Pick_Place
+_add_coke_can	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _add_coke_can(self, name):$/;"	m	class:CokeCanPickAndPlace
+_add_coke_can	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _add_coke_can(self, name):$/;"	m	class:CokeCanPickAndPlace
+_add_grasp_block_	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _add_grasp_block_(self, name):$/;"	m	class:Pick_Place
+_add_table	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _add_table(self, name):$/;"	m	class:Pick_Place
+_add_table	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _add_table(self, name):$/;"	m	class:CokeCanPickAndPlace
+_add_table	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _add_table(self, name):$/;"	m	class:Pick_Place
+_add_table	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _add_table(self, name):$/;"	m	class:CokeCanPickAndPlace
+_add_table	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _add_table(self, name):$/;"	m	class:CokeCanPickAndPlace
+_create_pickup_goal	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _create_pickup_goal(self, group, target, grasps):$/;"	m	class:Pick_Place
+_create_pickup_goal	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _create_pickup_goal(self, group, target, grasps):$/;"	m	class:CokeCanPickAndPlace
+_create_pickup_goal	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _create_pickup_goal(self, group, target, grasps):$/;"	m	class:Pick_Place
+_create_pickup_goal	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _create_pickup_goal(self, group, target, grasps):$/;"	m	class:CokeCanPickAndPlace
+_create_pickup_goal	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _create_pickup_goal(self, group, target, grasps):$/;"	m	class:CokeCanPickAndPlace
+_create_place_goal	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _create_place_goal(self, group, target, places):$/;"	m	class:Pick_Place
+_create_place_goal	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _create_place_goal(self, group, target, places):$/;"	m	class:CokeCanPickAndPlace
+_create_place_goal	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _create_place_goal(self, group, target, places):$/;"	m	class:Pick_Place
+_create_place_goal	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _create_place_goal(self, group, target, places):$/;"	m	class:CokeCanPickAndPlace
+_create_place_goal	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _create_place_goal(self, group, target, places):$/;"	m	class:CokeCanPickAndPlace
+_generate_grasps	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _generate_grasps(self, pose, width):$/;"	m	class:Pick_Place
+_generate_grasps	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _generate_grasps(self, pose, width):$/;"	m	class:CokeCanPickAndPlace
+_generate_grasps	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _generate_grasps(self, pose, width):$/;"	m	class:Pick_Place
+_generate_grasps	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _generate_grasps(self, pose, width):$/;"	m	class:CokeCanPickAndPlace
+_generate_grasps	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _generate_grasps(self, pose, width):$/;"	m	class:CokeCanPickAndPlace
+_generate_places	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _generate_places(self, target):$/;"	m	class:Pick_Place
+_generate_places	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _generate_places(self, target):$/;"	m	class:CokeCanPickAndPlace
+_generate_places	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _generate_places(self, target):$/;"	m	class:Pick_Place
+_generate_places	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _generate_places(self, target):$/;"	m	class:CokeCanPickAndPlace
+_generate_places	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _generate_places(self, target):$/;"	m	class:CokeCanPickAndPlace
+_pickup	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _pickup(self, group, target, width):$/;"	m	class:Pick_Place
+_pickup	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _pickup(self, group, target, width):$/;"	m	class:CokeCanPickAndPlace
+_pickup	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _pickup(self, group, target, width):$/;"	m	class:Pick_Place
+_pickup	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _pickup(self, group, target, width):$/;"	m	class:CokeCanPickAndPlace
+_pickup	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _pickup(self, group, target, width):$/;"	m	class:CokeCanPickAndPlace
+_place	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _place(self, group, target, place):$/;"	m	class:Pick_Place
+_place	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _place(self, group, target, place):$/;"	m	class:CokeCanPickAndPlace
+_place	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _place(self, group, target, place):$/;"	m	class:Pick_Place
+_place	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _place(self, group, target, place):$/;"	m	class:CokeCanPickAndPlace
+_place	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _place(self, group, target, place):$/;"	m	class:CokeCanPickAndPlace
+_publish_grasps	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _publish_grasps(self, grasps):$/;"	m	class:Pick_Place
+_publish_grasps	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _publish_grasps(self, grasps):$/;"	m	class:CokeCanPickAndPlace
+_publish_grasps	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _publish_grasps(self, grasps):$/;"	m	class:Pick_Place
+_publish_grasps	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _publish_grasps(self, grasps):$/;"	m	class:CokeCanPickAndPlace
+_publish_grasps	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _publish_grasps(self, grasps):$/;"	m	class:CokeCanPickAndPlace
+_publish_places	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^    def _publish_places(self, places):$/;"	m	class:Pick_Place
+_publish_places	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^    def _publish_places(self, places):$/;"	m	class:CokeCanPickAndPlace
+_publish_places	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^    def _publish_places(self, places):$/;"	m	class:Pick_Place
+_publish_places	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^    def _publish_places(self, places):$/;"	m	class:CokeCanPickAndPlace
+_publish_places	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^    def _publish_places(self, places):$/;"	m	class:CokeCanPickAndPlace
+code	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^        code = MoveItErrorCodes.__dict__[name]$/;"	v
+code	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^        code = MoveItErrorCodes.__dict__[name]$/;"	v
+code	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^        code = MoveItErrorCodes.__dict__[name]$/;"	v
+code	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^        code = MoveItErrorCodes.__dict__[name]$/;"	v
+code	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^        code = MoveItErrorCodes.__dict__[name]$/;"	v
+main	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^def main():$/;"	f
+main	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^def main():$/;"	f
+main	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^def main():$/;"	f
+main	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^def main():$/;"	f
+main	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^def main():$/;"	f
+main	seven_dof_arm_test/src/add_collision_objct.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/check_collision.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/find_ee_coordinate.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/move_group_plan_group_state.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/remove_collision_objct.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/test_custom.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/test_custom_coord.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/test_home.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/test_itomp.cpp	/^int main(int argc, char **argv)$/;"	f
+main	seven_dof_arm_test/src/test_random.cpp	/^int main(int argc, char **argv)$/;"	f
+moveit_error_dict	seven_dof_arm_gazebo/scripts/pick_and_place.py	/^moveit_error_dict = {}$/;"	v
+moveit_error_dict	seven_dof_arm_gazebo/scripts/pick_and_place_both_working_good.py	/^moveit_error_dict = {}$/;"	v
+moveit_error_dict	seven_dof_arm_gazebo/scripts/pick_and_place_ew.py	/^moveit_error_dict = {}$/;"	v
+moveit_error_dict	seven_dof_arm_gazebo/scripts/pick_and_place_pick_working.py	/^moveit_error_dict = {}$/;"	v
+moveit_error_dict	seven_dof_arm_gazebo/scripts/pick_and_place_working_1.py	/^moveit_error_dict = {}$/;"	v

@@ -1,0 +1,7 @@
+<launch>
+	<node name="test_home_node" pkg="seven_dof_arm_test" type="test_home_node" respawn="false" output="screen" >
+		<rosparam command="load" file="$(find seven_dof_arm_config)/config/kinematics.yaml"/>
+		<param name="/planning_plugin" value="ompl_interface/OMPLPlanner"/>
+		<rosparam command="load" file="$(find seven_dof_arm_config)/config/ompl_planning.yaml" />
+	</node>
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+	<node name="test_itomp" pkg="seven_dof_arm_test" type="test_itomp_node" respawn="false" output="screen" >
+		<rosparam command="load" file="$(find seven_dof_arm_config)/config/kinematics.yaml"/>
+		<!--<param name="/planning_plugin" value="chomp_interface/CHOMPPlanner"/>-->
+		<param name="/planning_plugin" value="itomp_cio_planner/ITOMPPlanner"/>
+		<rosparam command="load" file="$(find seven_dof_arm_config)/config/itomp_planning.yaml" />
+	</node>
+</launch>

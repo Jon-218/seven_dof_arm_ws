@@ -1,0 +1,5 @@
+<launch>
+	<arg name="xtion" default="false" />
+  <rosparam unless="$(arg xtion)" command="load" file="$(find seven_dof_arm_config)/config/sensors_rgbd.yaml" />
+  <rosparam if="$(arg xtion)" command="load" file="$(find seven_dof_arm_config)/config/sensors_xtion.yaml" />
+</launch>

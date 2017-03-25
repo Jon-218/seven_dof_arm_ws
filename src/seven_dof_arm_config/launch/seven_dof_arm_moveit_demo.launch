@@ -1,0 +1,13 @@
+<launch>
+	<arg name="sim" default="false" />
+	<arg name="xtion" default="false" />
+
+	<include file="$(find seven_dof_arm_config)/launch/seven_dof_arm_moveit_planning_execution.launch">
+		<arg name="sim" value="true" />
+		<arg name="xtion" value="$(arg xtion)" />
+	</include>
+
+	<include file="$(find seven_dof_arm_config)/launch/moveit_rviz.launch">
+		<arg name="config" value="true" />
+	</include>
+</launch>
