@@ -218,6 +218,12 @@ target_link_libraries(test_itomp_node
   	${catkin_LIBRARIES}
 	)
 
+add_executable(print_path src/print_path.cpp)
+add_dependencies(print_path seven_dof_arm_test_generate_messages_cpp)
+target_link_libraries(print_path
+  	${catkin_LIBRARIES}
+	)
+
 #############
 ## Install ##
 #############

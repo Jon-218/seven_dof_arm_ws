@@ -1,0 +1,10 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: mastering_ros_robot_description_pkg
+    relative_path: robot/dabot.xacro
+  SRDF:
+    relative_path: config/dabot.srdf
+  CONFIG:
+    author_name: jon
+    author_email: ymjiang218@126.com
+    generated_timestamp: 1491445720

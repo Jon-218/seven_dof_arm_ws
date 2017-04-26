@@ -11,8 +11,8 @@
           <horizontal_fov>${58.0 * deg_to_rad}</horizontal_fov>
           <image>
             <format>R8G8B8</format>
-            <width>320</width>
-            <height>240</height>
+            <width>640</width>
+            <height>480</height>
           </image>
           <clip>
             <near>0.05</near>
@@ -53,8 +53,8 @@
           <horizontal_fov>${58.0 * deg_to_rad}</horizontal_fov>
           <image>
             <format>R8G8B8</format>
-            <width>320</width>
-            <height>240</height>
+            <width>640</width>
+            <height>480</height>
           </image>
           <clip>
             <near>0.05</near>

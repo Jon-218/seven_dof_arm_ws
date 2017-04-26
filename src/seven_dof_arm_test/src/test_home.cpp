@@ -154,14 +154,15 @@ int main(int argc, char **argv)
 
 	display_trajectory.trajectory_start = respone.trajectory_start;
 	display_trajectory.trajectory.push_back(respone.trajectory);
+	std::cout<<"time:"<<req.allowed_planning_time<<std::endl;
 	display_publisher.publish(display_trajectory);
 
 
-	moveit::planning_interface::MoveGroup group("arm");
-	moveit::planning_interface::MoveGroup::Plan my_plan;
+	//moveit::planning_interface::MoveGroup group("arm");
+	//moveit::planning_interface::MoveGroup::Plan my_plan;
 
-	my_plan.start_state_ = respone.trajectory_start;
-	my_plan.trajectory_ = respone.trajectory;
+	//my_plan.start_state_ = respone.trajectory_start;
+	//my_plan.trajectory_ = respone.trajectory;
 
 //	moveit::planning_interface::MoveGroup group("manipulator");
 //	moveit::planning_interface::PlanningSceneInterface planning_scene_interface;
@@ -188,9 +189,9 @@ int main(int argc, char **argv)
 //
 //	moveit::planning_interface::MoveGroup::Plan my_plan;
 //	bool success = group.move();
-	bool success2 = group.execute(my_plan);
+	//bool success2 = group.execute(my_plan);
 //	ROS_INFO("Visuallizing plan 1 (pose goal) %s", success?"":"FAILED");
-	ROS_INFO("Visuallizing execute 1 (pose goal) %s", success2?"":"FAILED");
+	//ROS_INFO("Visuallizing execute 1 (pose goal) %s", success2?"":"FAILED");
 
 	sleep(1.0);
 	ros::shutdown();

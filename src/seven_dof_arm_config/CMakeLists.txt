@@ -1,3 +1,4 @@
+#xml
 cmake_minimum_required(VERSION 2.8.3)
 project(seven_dof_arm_config)
 

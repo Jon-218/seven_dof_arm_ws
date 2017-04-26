@@ -56,9 +56,9 @@ int main(int argc, char **argv)
 	target_pose1.pose.orientation.y = -0.687396;
 	target_pose1.pose.orientation.z = 4.81813e-07;
 
-	target_pose1.pose.position.x = 0.0261186;
-	target_pose1.pose.position.y = 4.50972e-07;
-	target_pose1.pose.position.z = 0.573659;
+	target_pose1.pose.position.x = 0.115098;//0.0261186;
+	target_pose1.pose.position.y = -0.102243;//4.50972e-07;
+	target_pose1.pose.position.z = 0.517126;//0.573659;
   //geometry_msgs::Pose target_pose1;
   //target_pose1.orientation.w = 0.726282;
   //target_pose1.orientation.x= 4.04423e-07;
@@ -76,7 +76,10 @@ int main(int argc, char **argv)
   // Note that we are just planning, not asking move_group 
   // to actually move the robot.
   moveit::planning_interface::MoveGroup::Plan my_plan;
-  bool success = group.plan(my_plan);
+	bool success = group.plan(my_plan);
+	std::cout<<"time:"<<my_plan.planning_time_<<std::endl;
+	success = group.execute(my_plan);
+	//bool success = group.move();
 
   ROS_INFO("Visualizing plan 1 (pose goal) %s",success?"":"FAILED");    
   /* Sleep to give Rviz time to visualize the plan. */
